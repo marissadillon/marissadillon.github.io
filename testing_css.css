@@ -1,4 +1,4 @@
-/*Header with my name*/
+//*Header with my name*/
 h1 {
 	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
 	color: black;
@@ -54,6 +54,13 @@ h3 {
   text-align: center;
   margin-right: 25%;
   margin-left: 25%;
+  /*Remove these bottom lines to make the pictures closer together*/
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50vh;
+  margin: 0;
+  padding-top: 10px;"
 }
 
 /* Create three equal columns that sits next to each other */
