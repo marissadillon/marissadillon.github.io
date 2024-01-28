@@ -1,8 +1,364 @@
 <!DOCTYPE html>
 <html>
+<head>
+<!--link to the css file-->
+<link rel="stylesheet" href="testing_css.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. I was made by Marissa Dillon.</p>
-<p>I love you, Adam Walters. To the moon and back.</p>
+
+<!--DIFFERENT TABS-->
+<button class="tablink" onclick="openPage('Home', this, '#c41849')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('About', this, '#c41849')">About</button>
+<button class="tablink" onclick="openPage('Certifications', this, '#c41849')" >Certifications</button>
+<button class="tablink" onclick="openPage('Resume', this, '#c41849')">Resume</button>
+<button class="tablink" onclick="openPage('Projects', this, '#c41849')">Projects</button>
+<button class="tablink" onclick="openPage('Contact', this, '#c41849')">Contact</button>
+
+<!--HOME TAB-->
+<div id="Home" class="tabcontent" style="background-color: #c41849; padding: 25px;">
+	<!--h3>Home</h3-->
+	<!--p>Home is where the heart is..</p-->
+	<br>
+	<h1 style="background-color: white; margin: 0; padding-top: 25px; padding: 25px; margin-top: 30px; ">Hi, I'm Marissa Dillon! Welcome to my personal website!</h1>
+	<!--img src="me.jpg" alt="Marissa holding her two diplomas on graduation day" style="float: right; margin-right: 40px; padding-left: 20px; padding-top: 10px; height: 500px; width: 376px;"-->
+	<img src="me.jpg" alt="Marissa holding her two diplomas on graduation day" style="float: right; margin-right: 25px; padding-left: 20px; padding-top: 10px; height: 500px; width: 376px;">
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;">
+	I'm a recent engineering graduate from the University of Ottawa. I completed a double bachelors degree in biomedical mechanical
+	engineering and computing technology. The reason I wanted to pursue this degree was I wanted to combine technology with health care to
+	help people in need. I would be interested in any position that helps me achieve this goal. Anything from working as a biomedical engineer in a hospital setting to
+	developing medical devices for a company, sign me up! I'm just itching to learn and to dive right into another challenge!<br><br> 
+	
+	I built this website for multiple reasons: I wanted to showcase a bit of my personality because
+	I believe I am much more than just my two-page resume. I also wanted to provide extra details regarding some of the projects and volunteering 
+	experience I have done. Since graduating, I have a bunch of spare time on my hands and I wanted to spend some of it learning a new skill!<br><br>
+	Please watch this introduction video to know a bit more about me!</p>
+	
+</div>
+
+<!--NEWS TAB-->
+<div id="Certifications" class="tabcontent" style="background-color: #c41849; padding: 25px;">
+	<h3>News</h3>
+	<p>Some news this fine day!</p>
+</div>
+
+<!--ABOUT TAB-->
+<div id="About" class="tabcontent" style="background-color: #c41849; padding: 25px;">
+	<br>
+	<h3 style="background-color: white; margin: 0; padding-top: 25px; padding: 25px; margin-top: 30px;">Get to know me!</h3>
+	<p style="background-color: white; padding: 25px; margin: 0;">Since graduating from university and recently settling into a new full-time job, I have a lot of newfound free time to dive into my biggest 
+	passions and explore new hobbies. Here are a few of my favourite things to do in my spare time.</p>
+	<div class="flex-parent jc-center" style="height: 60px; width: 100%; background-color: white;">
+		<a href="#Photography_href"><button style="padding: 10px; margin-right: 20px;">Photography</button></a>
+		<a href="#Animals_href"><button style="padding: 10px; margin-right: 20px;">Animals</button></a>
+		<a href="#HikingBackpacking_href_href"><button style="padding: 10px; margin-right: 20px;">Hiking and Backpacking</button></a>
+		<a href="#Reading_href"><button style="padding: 10px; margin-right: 20px;">Reading</button></a>
+	</div>
+<!-- 	<a class="btn" href="#Photography_href">Photography</a>
+	<a class="btn" href="#Animals_href">Animals</a> -->
+	<!--a href="#HikingBackpacking_href">Hiking and backpacking</a-->
+	<!--a href="#Reading_href">Reading</a-->
+	<!-- YOU ARE HERE-->
+	<h3 id="Photography_href" style="background-color: white; margin: 0; padding-top: 25px; padding: 25px; margin-top: 30px;">Photography</h3>
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;">Photography is my favourite art form. I absolutely love to get outside and take the time to explore the beauty of the people
+	and the nature around me. I love macro photography, which is basically taking close up pictures of things. I even started a photography 
+	instagram page so I could share my pictures with my family and friends. Here are a few of my favourite pictures that I have taken
+	in recent years.
+	<h3 id="Animals_href">Animals</h3>
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;">Animals, more specifically animal rights and animal care, have been a huge passion of mine since I can remember. I begged my parents for 
+	a dog and after many years, they finally caved into my biggest request (add "perserverant" to my list of strong suits :) ). 
+	I have since been the owner of a beautiful 12 year old Australian Shepherd named Clover. I took care of her training and her physical 
+	and mental stimulation. She's extremely smart (even too smart sometimes) and makes me laugh everyday. Here are some cute pictures of her for your 
+	enjoyment.
+	<br>
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;">I do have a lot of other experience with dogs that are not my own. I used to be a Canine Enrichment Volunteer at the Ottawa Humane Society.
+	I was responsible for walking the dogs and providing them with mental and physical stimulation. I was also a dog walker during summer 2023
+	before I started looking for a full time job and it was an absolute blast. Here are some pictures of the dogs I came into
+	contact with when I was a volunteer at the shelter and when I was walking dogs.</p>
+	<h3 id="HickingBackpacking_href">Hiking and Backpacking</h3>
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;"> I recently started getting into hiking and backpacking. Over the summer, I went on my first backpacking trip in St-Donat, Quebec, which 
+	was just under 40km long, and lasted two nights in the woods. Everything from spotting bear tracks to hearing animals run around the tent at night
+	was amazing and very grounding. I'm excited to see what new hiking trips I get to go on this summer!</p>
+	<h3 id="Reading_href">Reading</h3>
+	<p style="background-color: white; padding-left: 25px; padding-right: 25px; padding-bottom: 50vh; margin: 0; padding top: 10px;"> I have been an avid reader since high school. However, since starting University, this hobby quickly fell through the tracks and I wasn't reading
+	as much as I wanted to due to my hectic schedule. Once I graduated, I quickly picked this back up and have found some really good books that I would love
+	to share. My most recent favourites and current reads are: </p>
+	<div class="row">
+		<div class="column">
+			<img src="atomichabits.jpg" alt="Atomic Habits book cover" height="300px">
+			<!--img src="atomichabits.jpg" alt="Atomic Habits book cover" style="width: 50%"/-->
+		</div>
+		<div class="column">
+			<img src="whywesleep.jpg" alt="Why We Sleep book cover" height="300px">
+			<!--img src="whywesleep.jpg" alt="Why We Sleep book cover" style="width: 50%"/-->
+		</div>
+		<div class="column">
+			<img src="mindgutconnection.jpg" alt="The Mind-Gut Connection book cover" height="300px">
+			<!--img src="mindgutconnection.jpg" alt="The Mind-Gut Connection book cover" style="width: 50%"/-->
+		</div>
+	</div>
+</div>
+
+<!--RESUME TAB-->
+<div id="Resume" class="tabcontent">
+	<h3>Resume</h3>
+	<p>These are my accomplishments.</p>
+	
+	<!--PROFESSIONAL EXPERIENCE SECTION-->
+	<h3 style="text-align: left;">Professional Experience</h3>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Environment and Climate Change Canada</b></td>
+		<td style="text-align: right;">Gatineau, QC<br>October 2023 - Present</td>
+		</tr>
+	</table>
+	<!--h4>Environment and Climate Change Canada</h4-->
+	<p style="margin: 0;">Junior Project Engineer
+		<ul style="list.style-type:disc; margin: 0; padding-top: 0;">
+		<li>Read and comprehend research papers related to Heavy-Duty Vehicle Engine Greenhouse Gas Emissions regulations, safety and related topics</li>
+		<li>Ensured data accuracy, consistency and relevance through meticulous data collection and validation techniques</li>
+		<li>Wrote python scripts to automate data processing tasks</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Nordion Inc.</b></td>
+		<td style="text-align: right;">Kanata, ON<br>May 2022 - August 2022</td>
+		</tr>
+	</table>
+	<!--h4>Nordion Inc.</h4-->
+	<p style="margin: 0;">Quality Assurance Student<br>
+		<ul style="list.style-type:disc; margin: 0; padding-top: 0;">
+		<li>Spearheaded the initiative to reduce the backlog of change forms, enhancing efficiency and effictiveness in managing process improvements</li>
+		<li>Engaged in comprehensive research and analysis of ISO 9001, applying acquired knowledge to enhance quality assurance processes</li>
+		<li>Reviewed existing document procedures to identify inconsistencies in documentation, developed new procedures</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Environment and Climate Change Canada</b></td>
+		<td style="text-align: right;">Gatineau, QC<br>September 2021 - December 2021</td>
+		</tr>
+	</table>
+	<!--h4>Environment and Climate Change Canada</h4-->
+	<p  style="margin: 0;">Engineering Student<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Contributed to the creation and enhancement of systems used for compiling and analyzing data, ensuring their reliability and performance</li>
+		<li>Collaborated with cross-functional teams to support the development of information systems and the successful management of data analysis projects</li>
+		<li>Processed and eliminated the backlog of importation declarations</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Aeponyx Inc.</b></td>
+		<td style="text-align: right;">Montreal, QC<br>January 2021 - December 2021</td>
+		</tr>
+	</table>
+	<!--h4>Aeponyx Inc.</h4-->
+	<p  style="margin: 0;">Test and Characterization Intern<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Nominated as intern of the year</li>
+		<li>Elevated my object-oriented programming skills using Python</li>
+		<li>Automated data analysis and optical tests by developing Python scripts, enhancing efficiency and precision in testing procedures</li>
+		<li>Gained hands-on experience in setting up, conducting and debugging a wide range of optical and telecommunication tests, such as the eye diagram and short-term spectral analysis</li>
+		</ul>
+	</p>
+	
+	<!--OTHER WORK EXPERIENCES SECTION-->
+	<h3 style="text-align: left;">Other work experience</h3>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>TeachItRight & Independant.</b></td>
+		<td style="text-align: right;">Ottawa, ON & Virtual<br>2015 - Present</td>
+		</tr>
+	</table>
+	<!--h4>TeachItRight and Independant</h4-->
+	<p style="margin: 0;">Private Tutor<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Taught youth subjects related to STEM, online and in-person</li>
+		<li>Communicated technical concepts in a non-technical manner</li>
+		<li>Oversaw and developed personalized educational plans for students</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>BWD</b></td>
+		<td style="text-align: right;">Ottawa, ON<br>May 2023 - September 2023</td>
+		</tr>
+	</table>
+	<!--h4>BWD</h4-->
+	<p style="margin: 0;">Dog Walker<br>
+		<ul  style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Provided dogs with safe and engaging physical activities and mental stimulation tailored to their individual needs</li>
+		<li>Delivered a top-tier customer service experience by maintaing clear and open communication with pet owners</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Calypso Theme Waterpark</b></td>
+		<td style="text-align: right;">Limoges, ON<br>April 2018 - August 2019</td>
+		</tr>
+	</table>
+	<!--h4>Calypso Theme Waterpark</h4-->
+	<p style="margin: 0;">Team Leader of the Information Department<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Communicated and helped customers, either in person, by email or over the phone</li>
+		<li>Trained new employees in order to encourage teamwork and build trust between team members</li>
+		<li>Managed customer complaints and solved any problems brought up to the information department</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>McDonald's Canada</b></td>
+		<td style="text-align: right;">Casselman, ON<br>April 2016 - August 2017</td>
+		</tr>
+	</table>
+	<!--h4>McDonald's Canada</h4-->
+	<p style="margin: 0;">Guest Experience Leader, Cashier, Crew Trainer<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Acquired leadership skills while training new employees and offering great customer service</li>
+		<li>Assisted cusomters with any issues they may have encountered</li>
+		</ul>
+	</p>
+	<!--SKILLS SECTION-->
+	<h3 style="text-align: left;">Skills</h3>
+	
+	<!--VOLUNTEERING SECTION-->
+	<h3 style="text-align: left;">Volunteering</h3>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Canadian Association for Girls in Science</b></td>
+		<td style="text-align: right;">Ottawa, ON & Virtual<br>October 2023 - Present</td>
+		</tr>
+	</table>
+	<!--h4>McDonald's Canada</h4-->
+	<p style="margin: 0;">Volunteer<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Brainstorm, organize and plan STEM events for members</li>
+		<li>Help with activities and supervise events</li>
+		<li>Assist in running virtual activities at virtual sessions</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Ottawa Humane Society</b></td>
+		<td style="text-align: right;">Ottawa, ON<br>July 2022 - July 2023</td>
+		</tr>
+	</table>
+	<!--h4>McDonald's Canada</h4-->
+	<p style="margin: 0;">Canine Enrichment Volunteer<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Walk and provide physical enrichment and mental stimulation to the dogs staying at the shelter</li>
+		<li>Encouraged basic obedience and follow behaviour modification plan instructions for each dog</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>Heart in Hand Rescue</b></td>
+		<td style="text-align: right;">Montreal, QC<br>January 2021 - June 2021</td>
+		</tr>
+	</table>
+	<!--h4>McDonald's Canada</h4-->
+	<p style="margin: 0;">Foster home for cats:<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Provided a nurturing and temporary living environment for stray cats</li>
+		<li>Administered medications and monitored their health</li>
+		<li>Prepared them for a successful adoption</li>
+		</ul>
+	</p>
+		<p style="margin: 0;">Adoption coordinator:<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Managed the adoption process from application review to final placement</li>
+		<li>Ensured the best match between cats and potential adopters</li>
+		<li>Conducted torough interviews and answered questions from potential adopters</li>
+		</ul>
+	</p>
+	<table style="color: black; width: 100%; margin-bottom: 0;">
+		<tr>
+		<td><b>PAWS</b></td>
+		<td style="text-align: right;">Ottawa, ON<br>June 2015 - April 2019</td>
+		</tr>
+	</table>
+	<!--h4>McDonald's Canada</h4-->
+	<p style="margin: 0;">Junior Ambassador:<br>
+		<ul style="list.style-type:disc;  margin: 0; padding-top: 0;">
+		<li>Promoted the mission of banning the sale of pets in pet stores in Ottawa through outreach, education and community engagement</li>
+		<li>Collaborated with other volunteers to plan and organize events</li>
+		<li>Presented in front of the Ottawa counsellors on Monday, march 2021 2016 to get them to pass a bill to ban the sale of pets in pet stores</li>
+		</ul>
+	</p>
+</div>
+
+<!--PROJECTS TAB-->
+<div id="Projects" class="tabcontent">
+	<h3>Here are my biggest projects and accomplishments.</h3>
+	<p>I have completed a lot of projects throughout my academic journey and in my personal life that I am proud of. Below are projects varying from
+	IoT designs to animal rights events. I also have a new IoT project that I am completing in my spare time, so keep an eye out on my website
+	for an update soon!</p>
+	<h3>Capstone</h3>
+	<p>
+	<h3>IoT Soil Moisture Sensor</h3>
+	<h3>IoT Obstacle-Avoiding Chariot</h3>
+	<h3>Banning the Sale of Pets in Pet Stores with PAWS</h3>
+	<h3>Report on Animal Homelessness (French)</h3>
+	<!--p>I love building things in my spare time!</p-->
+</div>
+
+<!--CONTACT TAB-->
+<div id="Contact" class="tabcontent">
+	<h3>Contact</h3>
+	<p>I would love to get in touch! If you want to chat about job opportunities, have questions about my experience or even if you want to
+		leave me some constructive criticism on my website, then please send me an email and I will get back to you as soon as possible.</p><br>
+	<form> <!--action="https://formsubmit.co/maridill29@gmail.com" method="POST"-->
+		<label for="fname" style="color: black;">First Name: </label>
+		<input type="text" id="fname" name="fname" /><br>
+		<label for="lname" style="color: black;">Last Name: </label> 
+		<input type="text" id="lname" name="lname" /><br>
+		<label for="email" style="color: black;">Email: </label> 
+		<input type="text" id="email" name="email" /><br>
+		<textarea id="emailMessage" name="emailMessage" rows="10"></textarea><br><br>
+		<input type="submit" value="Submit"><br><br>
+	</form>
+	<h3 style="text-align: center;"> Let's connect! </h3>
+	<div id="socialIcons">
+		<a href="https://www.instagram.com/marid.photography/">
+			<img src="instagram.png" class="socials" style="width: 75px; height: 75px;" >
+		</a>
+		<a href="https://www.linkedin.com/in/marissa-dillon-607626183/">
+			<img src="linkedin.png" class="socials" style="width: 75px; height: 75px;" >
+		</a>
+	</div>
+</div>
+
+
+
+<!--JAVASCRIPT CODE-->
+<script>
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+	tablinks[i].style.color="";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+  elmnt.style.color = "white";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
 </body>
 </html>

@@ -1,0 +1,187 @@
+/*Header with my name*/
+h1 {
+	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+	color: black;
+}
+
+/*Tag line*/
+p {
+	color: black;
+	font-size: 20px;
+	font-family: "Noto Sans", sans-serif;
+}
+
+/*About me heading*/
+h2 {
+	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+	color: black;
+}
+
+/*Paragraph about me*/
+p2 {
+	color: black;
+	font-size: 18px;
+	font-family: "New Century Schoolbook, TeX Gyre Schola", serif;
+}
+/*Contact me and Let's Connect! Header*/
+h3 {
+	text-align: center;
+	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+	color: black;
+}
+
+/* ABOUT ME SECTION */
+/*.row {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	
+}
+
+.column {
+	margin-left: 15px;
+	margin-right: 15px;
+	justify-content: center;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+  /*justify-content: center;*/
+  text-align: center;
+}
+
+
+/* SOCIAL ICON STYLES */
+.socials {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#socialIcons{
+	text-align: center;
+}
+
+/* FORM STYLES */
+form {
+	margin: 0 auto;
+	width: 500px;
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+	float: left; 
+}
+
+input[type=text]{
+	display: inline-block;
+ 	text-align: left;
+	float: right;
+	width: 250px;
+}
+
+textarea{
+	margin: 0 auto;
+	display: inline-block;
+	width: 100%;
+}
+
+input[type=submit]{
+	margin: 0 auto;
+	display: block;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink{
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.666667%;
+}
+
+.tablink:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent{
+  color: black;
+  display: none;
+  padding: 50px 20px;
+  /*height: 100%; ** this was causing the background to be white as I scrolled*/ 
+  min-height: 100vh;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.margin-right {
+	margin-right: 20px;
+}
+
+#Home {
+	/*background-color: red; 
+	/*how to make an image cover the entire background
+	background-image: url('sunset.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;*/
+	background-color: white;
+	color: black;
+
+}
+#News {
+	background-color: white;
+	color: black;
+}
+
+#About {
+	background-color: white;
+	color: black;
+}
+#Resume {
+	background-color: white;
+	color: black;
+	
+}
+#Projects {
+	background-color: white;
+	color: black;
+}
+#Contact {
+	background-color: white;
+	color: black;
+}
