@@ -28,6 +28,7 @@ h3 {
 	text-align: center;
 	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
 	color: black;
+	font-size: 25px;
 }
 
 /* ABOUT ME SECTION */
@@ -43,6 +44,50 @@ h3 {
 	margin-right: 15px;
 	justify-content: center;
 }*/
+#resumeSection {
+	text-align: left; 
+	background: white; 
+	padding-right: 25px; 
+	padding-left: 25px; 
+	margin: 0;
+}
+
+#resumeTable {
+	color: black; 
+	width: 100%; 
+	margin-bottom: 0; 
+	background-color: white; 
+	padding-right: 25px; 
+	padding-left: 25px
+}
+
+#company {
+	font-size: 17px;
+}
+
+#companyLocation {
+	text-align: right;
+	font-size: 17px;
+}
+
+#jobTitle {
+	margin: 0; 
+	background-color: white; 
+	padding-right: 25px; 
+	padding-left: 25px; 
+	font-size: 17px;
+}
+
+#jobDescription {
+	list.style-type:disc; 
+	margin: 0; 
+	padding-top: 0; 
+	background-color: white; 
+	padding-right: 25px; 
+	padding-left: 60px; 
+	width: 100%; 
+	font-size: 17px;
+}
 
 * {
   box-sizing: border-box;
@@ -58,17 +103,29 @@ h3 {
   background-color: white;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 50vh;
+  padding-bottom: 25px;
   margin: 0;
   padding-top: 10px;"
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px; 
 }
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 50%;
-  padding: 5px;
-  /*justify-content: center;*/
-  text-align: center;
+	flex: 50%;
+	padding: 5px;
+	/*justify-content: center;*/
+	text-align: center;
+}
+
+#youtube{
+	display: block;
+	margin: 0 auto; 
+	width: 100%; 
+	padding-left: 200px; 
+	padding-right: 200px; 
+	background-color: white; 
+	height: 500px;"
 }
 
 
@@ -87,7 +144,8 @@ h3 {
 /* FORM STYLES */
 form {
 	margin: 0 auto;
-	width: 500px;
+	width: 100%;
+	/*width: 500px;*/
 }
 
 label {
